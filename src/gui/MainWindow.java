@@ -74,6 +74,7 @@ public class MainWindow extends javax.swing.JFrame {
             } else {
                 System.out.println("Unexpected tokens in number");
                 textArea.append("Unexpected tokens in the number.\n");
+                text.setText("");
             }
             int row = 0;
             while (row < tree.getRowCount()) {
