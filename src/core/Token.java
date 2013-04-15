@@ -9,7 +9,7 @@ package core;
 public class Token {
     
     public static enum TokenKind {
-        DIGIT, BASE, ERROR
+        DIGIT, BASE, ERROR, END
     }
     
     private String lexeme;
